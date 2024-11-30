@@ -25,6 +25,7 @@ x -- //x = x-1
 
 console.log(x);
 
+//CHALLENGE #1
 
 const massMark = 78
 const heightMark = 1.69
@@ -63,7 +64,7 @@ console.log(
 console.log(`String with 
     multipal
     lines`)
-*/
+
 
 
 //taking dissition if/else statements
@@ -76,4 +77,22 @@ if(age >= 18 ){
 }else{
     console.log(`You are not old enough to drive ��. Please wait for another
     ${18-age} years`);
+}
+*/
+
+//CHALLENGE #2
+
+const massMark = 78
+const heightMark = 1.69
+const massJohn = 92
+const heightJohn = 1.95
+
+const bmiMark = massMark / heightMark ** 2
+const bmiJohn = massJohn / (heightJohn * heightJohn)
+console.log('bmiMark = ' + bmiMark + '\n' + 'bmiJohn =' + bmiJohn)
+
+if (bmiMark > bmiJohn) {
+  console.log(`Mark's BMI(${bmiMark}) is higher than John's (${bmiJohn})`)
+} else {
+  console.log(`John's BMI(${bmiJohn}) is higher than Mark's (${bmiMark})`)
 }
