@@ -38,7 +38,7 @@ console.log('bmiMark = ' + bmiMark + '\n' + 'bmiJohn =' + bmiJohn)
 const markHigherBMI = bmiMark > bmiJohn
 
 console.log(markHigherBMI)
-*/
+
 
 // Strings and Template Literals
 
@@ -63,3 +63,17 @@ console.log(
 console.log(`String with 
     multipal
     lines`)
+*/
+
+
+//taking dissition if/else statements
+
+const age = 15;
+// const isOldEnough = age >= 18;
+
+if(age >= 18 ){
+    console.log('You can drive 🚗');
+}else{
+    console.log(`You are not old enough to drive ��. Please wait for another
+    ${18-age} years`);
+}
