@@ -1,3 +1,4 @@
+/*
 //Basic Operations
 let js = 'amazing'
 console.log(40 + 8 + 23 - 10)
@@ -37,3 +38,28 @@ console.log('bmiMark = ' + bmiMark + '\n' + 'bmiJohn =' + bmiJohn)
 const markHigherBMI = bmiMark > bmiJohn
 
 console.log(markHigherBMI)
+*/
+
+// Strings and Template Literals
+
+const firstName = 'kavindu'
+const job = 'teacher'
+const birthYear = 2000
+const year = 2037
+
+const kavindu =
+  "I'am " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!'
+console.log(kavindu)
+
+const kavinduNew = `I'am ${firstName}, a ${year - birthYear} years old ${job}!`
+console.log(kavinduNew)
+
+console.log(
+  'String with \n\
+    multiple \n\
+    lines'
+)
+
+console.log(`String with 
+    multipal
+    lines`)
