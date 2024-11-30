@@ -78,7 +78,7 @@ if(age >= 18 ){
     console.log(`You are not old enough to drive ��. Please wait for another
     ${18-age} years`);
 }
-*/
+
 
 //CHALLENGE #2
 
@@ -96,3 +96,19 @@ if (bmiMark > bmiJohn) {
 } else {
   console.log(`John's BMI(${bmiJohn}) is higher than Mark's (${bmiMark})`)
 }
+*/
+
+// Type conversion and Coercion
+
+const inputYear = '1993'
+console.log(Number(inputYear), inputYear)
+console.log(Number(inputYear) + 18)
+
+//console.log(Number('kavindu') - output is NaN
+console.log(String(23),23);
+
+
+//Type  Coercion
+
+console.log('I am' + 23 + ' years old');
+console.log('23'-'10'-3);
