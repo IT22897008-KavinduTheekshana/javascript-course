@@ -130,7 +130,7 @@ if(money){
 }else{
     console.log('You do not have money!');
 }
-*/
+
 
 // Equal operators == vs === 
 
@@ -153,3 +153,21 @@ if(favourite === 23){
 }
 
 if(favourite !== 23) console.log('Why not 23?');
+
+*/
+
+//Logical Operators
+
+const hasDriversLicence = true; //A
+const hasGoodVision = true; // B
+const isTired = false; // C
+
+console.log(hasDriversLicence && hasGoodVision); // true
+console.log(hasDriversLicence || hasGoodVision); // true
+console.log(!hasDriversLicence); // false
+
+if (hasDriversLicence && hasGoodVision && !isTired){
+    console.log('You are eligible to drive!');
+}else{
+    console.log('You are not eligible to drive...');
+}
