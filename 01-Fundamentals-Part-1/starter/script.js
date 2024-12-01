@@ -112,7 +112,7 @@ console.log(String(23), 23)
 console.log('I am' + 23 + ' years old')
 console.log('23' - '10' - 3)
 
-*/
+
 
 //Truthy and Falsy Values
 
@@ -130,3 +130,26 @@ if(money){
 }else{
     console.log('You do not have money!');
 }
+*/
+
+// Equal operators == vs === 
+
+const age = '18'
+if(age == 18) console.log('you just became a adult(loose)');
+
+if(age === 18) console.log('you just became a adult (strict)');
+
+
+const favourite = Number(prompt("what is your favourite number : "));
+console.log(favourite);
+console.log(typeof favourite);
+
+if(favourite === 23){
+    console.log('cool! 23 is an amazing number!');
+} else if(favourite === 7){
+    console.log('7 is also a cool number');
+}else{
+    console.log('Number is not 23 or 7');
+}
+
+if(favourite !== 23) console.log('Why not 23?');
