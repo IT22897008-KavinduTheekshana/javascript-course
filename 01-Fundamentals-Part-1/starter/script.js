@@ -154,7 +154,7 @@ if(favourite === 23){
 
 if(favourite !== 23) console.log('Why not 23?');
 
-*/
+
 
 //Logical Operators
 
@@ -170,4 +170,46 @@ if (hasDriversLicence && hasGoodVision && !isTired){
     console.log('You are eligible to drive!');
 }else{
     console.log('You are not eligible to drive...');
+}
+
+
+//CHALLENGE #3
+
+const scoreDolphins = (96 + 108 + 89) / 3
+const scoreKoalas = (88 + 91 + 110) / 3
+
+if (scoreDolphins === scoreKoalas) {
+  console.log('Both win the trophy 🏆')
+} else if (scoreDolphins > scoreKoalas) {
+  console.log('Dolphins win the trophy 🏆')
+} else {
+  console.log('Koalas win the trophy 😁')
+}
+*/
+
+// Switch Statement
+
+const day = 'Thursday'
+
+switch (day) {
+  case 'Monday':
+  case 'Tuesday':
+  case 'Wednesday':
+  case 'Thursday':
+  case 'Friday':
+    console.log('It is a weekday')
+    break
+  case 'Saturday':
+  case 'Sunday':
+    console.log('It is a weekend')
+    break
+  default:
+    console.log('Invalid day')
+}
+
+if (day === 'Monday'|| day === 'Tuesday' || 
+    day ==='Wednesday' || day === 'Thursday' || day === 'Friday'){
+    console.log('It is a weekday')
+}else{
+    console.log('It is a weekend')
 }
